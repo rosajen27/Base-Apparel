@@ -1,11 +1,6 @@
 # Frontend Mentor - Base Apparel coming soon page
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
-
-## The challenge
-
-Your challenge is to build out this coming soon page and get it looking as close to the design as possible.
-
+Deployed Website: https://rosajen27.github.io/Base-Apparel/
 
 ## Criteria
 ```
@@ -15,3 +10,4 @@ Your challenge is to build out this coming soon page and get it looking as close
   - The `input` field is empty
   - The email address is not formatted correctly
   ```
+![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
