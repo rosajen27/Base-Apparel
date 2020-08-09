@@ -6,7 +6,7 @@ Coming soon landing page for a fictional clothing store called Base Apparel. Web
 
 Deployed Website: https://rosajen27.github.io/Base-Apparel/
 
-![Design preview for the Base Apparel coming soon page coding challenge](./images/base-apparel.PNG)
+![Design preview for the Base Apparel coming soon page coding challenge](./images/base-apparel.png)
 
 ## Built With
 
