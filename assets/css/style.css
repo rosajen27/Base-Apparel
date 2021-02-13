@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  color: hsl(0, 6%, 24%);
+}
+
+p {
+  font-family: Josefin Sans;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: .1rem;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.left-col-text {
+  padding: 0 150px 200px 200px;
+  background-image: url("./../images/bg-pattern-desktop.svg");
+  background-size: cover;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.title-color {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.logo-img {
+  margin-top: 90px;
+  padding-bottom: 150px;
+}
+
+.left-col-text p {
+  padding: 32px 0;
+}
+
+/* Email input */
+input {
+  border-radius: 30px;
+  padding: 16px;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  opacity: 50%;
+  border: solid 1px;
+  color: hsl(0, 36%, 70%);
+}
+
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-family: Josefin Sans;
+}
+
+button {
+  width: 100px;
+  border-radius: 30px;
+  height: 50px;
+  margin-left: -100px;
+  display: inline-block;
+  position: absolute;
+  border: solid 0px;
+  color: hsl(0, 36%, 70%);
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%) 100%
+  );
+}
+
+.attribution p {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution a {
+  font-family: Josefin Sans;
+  color: hsl(228, 45%, 44%);
+}
+
+/*RESPONSIVE GRID*/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .left-col-text {
+    padding: 0 32px 32px 32px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+  .left-col-text {
+    padding: 0 64px 64px 64px;
+    text-align: center;
+  }
+
+  .col-1
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
