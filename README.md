@@ -1,17 +1,18 @@
-# Base Apparel
+# 👗 Base Apparel
 
-Coming soon landing page for a fictional clothing store called Base Apparel. Webpage was created from and based off of observing end result PDF from a Frontend Mentor Challenge.
+Coming soon landing page for a fictional clothing store called Base Apparel. Webpage was created from and based off of observing the end result PDF from a Frontend Mentor Challenge.
 
 ## Deployment
 
-Deployed Website: https://rosajen27.github.io/Base-Apparel/
+Demo: https://rosajen27.github.io/base-apparel/
 
-![Design preview for the Base Apparel coming soon page coding challenge](./images/base-apparel.png)
+![image](./images/base-apparel.png)
 
 ## Built With
 
-  - HTML
-  - CSS
+  * HTML
+  * CSS
+  * JavaScript
 
 ## Authors
 
@@ -25,7 +26,7 @@ Deployed Website: https://rosajen27.github.io/Base-Apparel/
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2020 Jennifer Rosa
+Copyright (c) 2021 Jennifer Rosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -47,4 +48,4 @@ SOFTWARE.
 
 ## Acknowledgments
 
-  - Frontend Mentor
+  * Frontend Mentor
