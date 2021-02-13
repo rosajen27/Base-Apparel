@@ -6,7 +6,7 @@ Coming soon landing page for a fictional clothing store called Base Apparel. Web
 
 Demo: https://rosajen27.github.io/base-apparel/
 
-![image](./images/base-apparel.png)
+![image](./assets/images/base-apparel.png)
 
 ## Built With
 
