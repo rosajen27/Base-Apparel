@@ -15,7 +15,7 @@ h1 {
 p {
   font-family: Josefin Sans;
   color: hsl(0, 36%, 70%);
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-size: 18px;
   line-height: 2;
 }
@@ -52,9 +52,9 @@ input {
   height: 50px;
   width: 100%;
   display: inline-block;
-  opacity: 50%;
-  border: solid 1px;
-  color: hsl(0, 36%, 70%);
+  opacity: 75%;
+  border: solid 1px hsl(0, 36%, 70%);
+  font-size: 18px;
 }
 
 ::placeholder {
@@ -76,6 +76,14 @@ button {
     hsl(0, 80%, 86%),
     hsl(0, 74%, 74%) 100%
   );
+}
+
+.hidden {
+  display: none;
+}
+
+.error-message {
+  color: hsl(0, 93%, 68%);
 }
 
 .attribution p {
@@ -102,7 +110,6 @@ button {
 
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
-
   h1 {
     font-size: 3rem;
   }
@@ -124,8 +131,7 @@ button {
     text-align: center;
   }
 
-  .col-1
-  .col-2,
+  .col-1 .col-2,
   .col-3,
   .col-4,
   .col-5,
