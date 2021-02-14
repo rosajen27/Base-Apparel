@@ -21,9 +21,12 @@ p {
 }
 
 .left-col-text {
-  padding: 0 150px 200px 200px;
+  padding: 0 150px 100px 200px;
   background-image: url("./../images/bg-pattern-desktop.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 864px;
+  height: 100vh;
 }
 
 .hero-image {
@@ -111,7 +114,11 @@ button {
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .logo-img {
+    padding-bottom: 75px;
   }
 
   [class*="col-"] {
